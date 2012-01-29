@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McKearney.TfsSolutionInfo", "McKearney.TfsSolutionInfo\McKearney.TfsSolutionInfo.csproj", "{D60AA4B1-0702-412E-88C5-3A281B4D900A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DEF7A689-CBEF-4AF3-A852-721DB6B07E1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McKearney.TfsSolutionInfo", "McKearney.TfsSolutionInfo\McKearney.TfsSolutionInfo.csproj", "{83C1FF68-EDCE-4F07-A2C0-BB63CF36C09A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McKearney.TfsSolutionInfo_UnitTests", "McKearney.TfsSolutionInfo\_UnitTests\McKearney.TfsSolutionInfo_UnitTests.csproj", "{6D6C32A7-3FB3-4464-97FC-60CA0E987E8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McKearney.TfsSolutionInfo_IntegrationTests", "McKearney.TfsSolutionInfo\_IntegrationTests\McKearney.TfsSolutionInfo_IntegrationTests.csproj", "{A54E443A-C679-423F-971C-00F22FE3C07E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D60AA4B1-0702-412E-88C5-3A281B4D900A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D60AA4B1-0702-412E-88C5-3A281B4D900A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D60AA4B1-0702-412E-88C5-3A281B4D900A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D60AA4B1-0702-412E-88C5-3A281B4D900A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C1FF68-EDCE-4F07-A2C0-BB63CF36C09A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C1FF68-EDCE-4F07-A2C0-BB63CF36C09A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C1FF68-EDCE-4F07-A2C0-BB63CF36C09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C1FF68-EDCE-4F07-A2C0-BB63CF36C09A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6C32A7-3FB3-4464-97FC-60CA0E987E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6C32A7-3FB3-4464-97FC-60CA0E987E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6C32A7-3FB3-4464-97FC-60CA0E987E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6C32A7-3FB3-4464-97FC-60CA0E987E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54E443A-C679-423F-971C-00F22FE3C07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54E443A-C679-423F-971C-00F22FE3C07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54E443A-C679-423F-971C-00F22FE3C07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54E443A-C679-423F-971C-00F22FE3C07E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
